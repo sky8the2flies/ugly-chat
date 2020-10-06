@@ -1,5 +1,5 @@
 # **Ugly Chat**
-I was working with ![socket.io](https://socket.io) and I thought it would be fun to make a real-time messaging app.
+I was working with [socket.io](https://socket.io) and I thought it would be fun to make a real-time messaging app.
 
 ## Table of contents:
 - [Technologies](#Technologies-used)
