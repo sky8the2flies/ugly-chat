@@ -24,7 +24,6 @@ document.getElementById('submit').addEventListener('click', function (e) {
         rgbaName: getRandomRGBA(),
         rgbaContent: getRandomRGBA(),
     })
-    name.value = '';
     content.value = '';
 });
 
