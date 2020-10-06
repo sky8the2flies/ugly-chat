@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ugly Chat by Skyler</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Ugly - Chat</h1>
+      <div class="errors"></div>
+      <div class="form">
+        <input id="name" placeholder="Enter Display Name" type="text" />
+        <textarea
+        placeholder="Enter Message"
+        id="content"
+        cols="30"
+        rows="10"
+        ></textarea>
+        <button id="submit">Submit</button>
+      </div>
+      <hr>
+      <div class="messages">
+        
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascripts/app.js"></script>
+  </body>
+</html>

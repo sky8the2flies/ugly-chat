@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.errors {
+  text-align: center;
+  color: red;
+}
+
+.container {
+  margin: 10px;
+}
+
+.container > h1 {
+  text-align: center;
+  color: brown;
+}
+
+.form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+#content {
+  padding: 10px;
+  margin-bottom: 5px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 75px;
+  height: 100px;
+}
+
+#submit {
+  padding: 10px;
+}
+
+.messages {
+  margin: 10px;
+}
+
+.messages > div {
+  margin: 10px 0px;
+}
