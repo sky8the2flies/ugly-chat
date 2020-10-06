@@ -34,7 +34,7 @@ function addMessage({name, content, rgbaName, rgbaContent}) {
     const seperator = document.createElement('div');
     nameEl.textContent = name + ' (' + new Date().toLocaleTimeString() + ')';
     nameEl.style.color = rgbaName;
-    contentEl.textContent = content;
+    contentEl.innerHTML = content;
     contentEl.style.color = rgbaContent;
     seperator.append(nameEl);
     seperator.append(contentEl);
